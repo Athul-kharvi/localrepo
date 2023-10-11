@@ -1,0 +1,77 @@
+git hub is version control system is used to track the changes
+code 
+git is used in system along with code ( developing in vscode
+envirnoment along with updating the or pulling code into git_
+
+
+* git config --global user.name "Athul-kharvi"
+used to config our email in git bash to github
+
+* git config --global user.email "athulkharvi1234@gmail.com"
+config the email 
+
+* git config --list 
+to check the done things what we make changes
+
+commands
+
+* git clone <link>
+used to clone(copy) any repository to our local machine 
+<link> = http link of the repo
+
+* cd <file name>
+used to go to path
+
+* git status 
+used to check the status of the git 
+
+NOTE: whenever you modify you file you should do 2 things 
+	1.add
+	2.commit
+
+types of the file status
+
+1.untracked
+new files that git doesn't yet track
+
+2.modified
+changed
+
+3.staged
+file is ready to be committed
+
+4.unmodified
+unchanged
+
+work flow of status
+		(modified) / (untracked)
+			   |
+			   |
+			   |
+			   \/
+			add(staged)
+			   |
+			   |
+			   \/
+			commit(changed)
+ 
+
+* add 
+add new or changed file in staging area
+git add <file name>
+
+git add . (to add the all file)
+
+* commit 
+it is the record of change
+git commit-m "some changes"
+some changes: any feature we work on
+
+*push command
+upload local repo content to remote repo
+git push origin main
+
+	push
+local --------> remote 
+
+
